@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "markdownlint": "^0.25.1",
     "markdownlint-cli2": "^0.4.0",
     "markdownlint-rule-helpers": "^0.16.0"
   }

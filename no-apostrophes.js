@@ -20,8 +20,8 @@
 const {
     addErrorDetailIf,
     forEachLine,
-} = require('markdownlint/helpers');
-const { lineMetadata } = require('markdownlint/lib/cache');
+    getLineMetadata,
+} = require('markdownlint-rule-helpers');
 
 /**
  * Get the whole word at the position, given a position within the word.
@@ -49,7 +49,7 @@ module.exports = {
     description: 'Use single-quote instead of apostrophe',
     tags: ['punctuation'],
     function: function MDLDOC001(params, onError) {
-        forEachLine(lineMetadata(), (line, lineIndex, inCode) => {
+        forEachLine(getLineMetadata(params), (line, lineIndex, inCode) => {
             if (inCode) {
                 // Do not make changes to code stanzas.
                 return;
