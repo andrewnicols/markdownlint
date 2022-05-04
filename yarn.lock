@@ -154,12 +154,12 @@ markdownlint-cli2@^0.4.0:
     strip-json-comments "4.0.0"
     yaml "1.10.2"
 
-markdownlint-rule-helpers@0.16.0:
+markdownlint-rule-helpers@0.16.0, markdownlint-rule-helpers@^0.16.0:
   version "0.16.0"
   resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.16.0.tgz#c327f72782bd2b9475127a240508231f0413a25e"
   integrity sha512-oEacRUVeTJ5D5hW1UYd2qExYI0oELdYK72k1TKGvIeYJIbqQWAz476NAc7LNixSySUhcNl++d02DvX0ccDk9/w==
 
-markdownlint@0.25.1:
+markdownlint@0.25.1, markdownlint@^0.25.1:
   version "0.25.1"
   resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.25.1.tgz#df04536607ebeeda5ccd5e4f38138823ed623788"
   integrity sha512-AG7UkLzNa1fxiOv5B+owPsPhtM4D6DoODhsJgiaNg1xowXovrYgOnLqAgOOFQpWOlHFVQUzjMY5ypNNTeov92g==
